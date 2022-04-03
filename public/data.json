@@ -11,7 +11,7 @@
         "name" : "Tom Holland",
         "description" : "PackTech Laptop is a super awesome laptop. I am using it heavy handedly. And it's giving me super performance.",
         "ratings" : "⭐⭐⭐⭐⭐",
-        "picture" : "https://static.wikia.nocookie.net/marvelcinematicuniverse/images/2/2f/Tom_Holland.jpg/revision/latest?cb=20220213015022"
+        "picture" : "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Tom_Holland_by_Gage_Skidmore.jpg/1200px-Tom_Holland_by_Gage_Skidmore.jpg"
     },
     {
         "id" : 3,
@@ -41,5 +41,4 @@
         "ratings" : "⭐⭐⭐⭐⭐",
         "picture" : "https://media1.popsugar-assets.com/files/thumbor/Ei6DS6Fmk-e_8j1jEnlnGJWZZzk/150x78:2648x2576/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2020/01/27/067/n/44344577/3906de0b5e2f8212361e20.06657392_/i/Jacob-Elordi.jpg"
     }
-    
 ]
