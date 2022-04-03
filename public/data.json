@@ -1,0 +1,45 @@
+[
+    {
+        "id" : 1,
+        "name" : "Andrew Garfield",
+        "description" : "PackTech 13 inch Laptop is awesome. Super fast, Super Speedy, Super cool.",
+        "ratings" : "⭐⭐⭐⭐⭐",
+        "picture" : "https://www.goldenglobes.com/sites/default/files/2021-12/andrew-garfield-nom-pro-gettyimages-1354152670.jpg?format=pjpg&auto=webp&optimize=high&width=850"
+    },
+    {
+        "id" : 2,
+        "name" : "Tom Holland",
+        "description" : "PackTech Laptop is a super awesome laptop. I am using it heavy handedly. And it's giving me super performance.",
+        "ratings" : "⭐⭐⭐⭐⭐",
+        "picture" : "https://static.wikia.nocookie.net/marvelcinematicuniverse/images/2/2f/Tom_Holland.jpg/revision/latest?cb=20220213015022"
+    },
+    {
+        "id" : 3,
+        "name" : "Dwayne Johnson",
+        "description" : "PackTech Laptop is one of the best laptop in this market till now. I am using it since 2018 and it's performance is still great. ",
+        "ratings" : "⭐⭐⭐",
+        "picture" : "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Dwayne_Johnson_2014%28Cropped%29.jpg/1200px-Dwayne_Johnson_2014%28Cropped%29.jpg"
+    },
+    {
+        "id" : 4,
+        "name" : "Tom Cruise",
+        "description" : "PackTech Laptop battery is not so good. It's battery is draining out fast. Please upgrade this thing in your next launch. ",
+        "ratings" : "⭐⭐",
+        "picture" : "https://www.pinkvilla.com/files/styles/amp_metadata_content_image/public/mission_-impossible-7-crew-calls-tom-cruise-a-nightmare.jpg"
+    },
+    {
+        "id" : 5,
+        "name" : "Keanu Reeves",
+        "description" : "I am loving the performance of this PackTech 13 inch Laptop. ",
+        "ratings" : "⭐⭐⭐⭐",
+        "picture" : "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Reuni%C3%A3o_com_o_ator_norte-americano_Keanu_Reeves_cropped_2_%2846806576944%29_%28cropped%29.jpg/1200px-Reuni%C3%A3o_com_o_ator_norte-americano_Keanu_Reeves_cropped_2_%2846806576944%29_%28cropped%29.jpg"
+    },
+    {
+        "id" : 6,
+        "name" : "Jacob Elordi",
+        "description" : "The vulnerability of the PackTech Laptop is its battery running out fast. Otherwise, it is giving me super fast speed and good performance. ",
+        "ratings" : "⭐⭐⭐⭐⭐",
+        "picture" : "https://media1.popsugar-assets.com/files/thumbor/Ei6DS6Fmk-e_8j1jEnlnGJWZZzk/150x78:2648x2576/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2020/01/27/067/n/44344577/3906de0b5e2f8212361e20.06657392_/i/Jacob-Elordi.jpg"
+    }
+    
+]
