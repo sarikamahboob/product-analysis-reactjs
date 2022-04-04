@@ -62,7 +62,7 @@ const Chart = () => {
     <div className="container mx-auto flex flex-col justify-between items-center mt-20">
       <div className="mb-10">
         <h1 className="text-blue-700 text-2xl text-center font-bold mb-8">
-          Investment vs Reveneu
+          Investment vs Revenue
         </h1>
         <BarChart width={730} height={250} data={data}>
           <CartesianGrid strokeDasharray="3 3" />
@@ -76,7 +76,7 @@ const Chart = () => {
       </div>
       <div className="mb-10 pt-40 ">
         <h1 className="text-blue-700 text-2xl text-center font-bold mb-8">
-          Investment vs Reveneu
+          Investment vs Revenue
         </h1>
         <RadialBarChart
           width={730}
@@ -116,7 +116,7 @@ const Chart = () => {
       </div>
       <div className="mb-10 ">
         <h1 className="text-blue-700 text-2xl text-center font-bold mb-8">
-          Investment vs Reveneu
+          Investment vs Revenue
         </h1>
         <PieChart width={400} height={400}>
           <Pie
