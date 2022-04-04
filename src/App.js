@@ -1,4 +1,3 @@
-import { createContext } from "react";
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import About from "./Components/About/About";
@@ -9,7 +8,6 @@ import Home from "./Components/Home/Home";
 import Navbar from "./Components/Navbar/Navbar";
 import NotFound from "./Components/NotFound/NotFound";
 import Reviews from "./Components/Reviews/Reviews";
-import useReviews from "./Hooks/useReviews";
 
 function App() {
   return (

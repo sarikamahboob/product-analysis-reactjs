@@ -1,10 +1,10 @@
 import React from "react";
-import MyLineChart from "../Utilies/MyLineChart";
+import Chart from "../Utilities/Chart";
 
 const Dashboard = () => {
   return (
     <div className="">
-      <MyLineChart></MyLineChart>
+      <Chart></Chart>
     </div>
   );
 };

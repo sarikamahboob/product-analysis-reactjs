@@ -1,5 +1,4 @@
-import React, { useContext, useEffect, useState } from "react";
-import { ReviewContext } from "../../App";
+import { useNavigate } from "react-router-dom";
 import useReviews from "../../Hooks/useReviews";
 import SingleReview from "../SingleReview/SingleReview";
 
@@ -7,6 +6,7 @@ import "./Home.css";
 
 const Home = () => {
   const [reviews] = useReviews();
+  const navigate = useNavigate();
 
   console.log("reviews home:", reviews);
 
@@ -31,6 +31,9 @@ const Home = () => {
             Provides superfast SSD storage which opens apps and files in an
             instant
           </p>
+          <button className="bg-indigo-100 p-3 mt-3 hover:bg-indigo-700 hover:text-indigo-100 ease-in-out duration-300  text-indigo-700 font-bold text-xl rounded-xl">
+            Live Demo
+          </button>
         </div>
         <div className="image">
           <img
@@ -39,10 +42,16 @@ const Home = () => {
           />
         </div>
       </div>
-      <div className="container mx-auto flex flex-col ">
+      <div className="container mx-auto flex flex-col items-center mb-10">
         {reviews.slice(0, 3).map((review, id) => (
           <SingleReview key={id} review={review}></SingleReview>
         ))}
+        <button
+          onClick={() => navigate(`/reviews`)}
+          className="bg-indigo-100 p-3 mt-3 hover:bg-indigo-700 hover:text-indigo-100 ease-in-out duration-300  text-indigo-700 font-bold text-xl rounded-xl"
+        >
+          See All the Reviews
+        </button>
       </div>
     </div>
   );

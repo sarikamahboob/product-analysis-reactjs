@@ -13,17 +13,17 @@ import {
   YAxis,
 } from "recharts";
 
-const MyLineChart = () => {
+const Chart = () => {
   const data = [
     {
-      month: "Mar",
+      month: "March",
       investment: 100000,
       sell: 241,
       revenue: 10401,
       fill: "#8884d8",
     },
     {
-      month: "Apr",
+      month: "April",
       investment: 200000,
       sell: 423,
       revenue: 24500,
@@ -37,21 +37,21 @@ const MyLineChart = () => {
       fill: "#8dd1e1",
     },
     {
-      month: "Jun",
+      month: "June",
       investment: 500000,
       sell: 529,
       revenue: 40405,
       fill: "#82ca9d",
     },
     {
-      month: "Jul",
+      month: "July",
       investment: 600000,
       sell: 601,
       revenue: 50900,
       fill: "#a4de6c",
     },
     {
-      month: "Aug",
+      month: "August",
       investment: 700000,
       sell: 670,
       revenue: 61000,
@@ -128,4 +128,4 @@ const MyLineChart = () => {
   );
 };
 
-export default MyLineChart;
+export default Chart;
