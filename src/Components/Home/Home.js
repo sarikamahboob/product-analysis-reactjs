@@ -1,13 +1,14 @@
 import React, { useContext, useEffect, useState } from "react";
 import { ReviewContext } from "../../App";
 import useReviews from "../../Hooks/useReviews";
-import Reviews from "../Reviews/Reviews";
+import SingleReview from "../SingleReview/SingleReview";
+
 import "./Home.css";
 
 const Home = () => {
-  const [reviews, setReviews] = useReviews();
+  const [reviews] = useReviews();
 
-  console.log(reviews);
+  console.log("reviews home:", reviews);
 
   return (
     <div>
@@ -39,8 +40,8 @@ const Home = () => {
         </div>
       </div>
       <div className="container mx-auto flex flex-col ">
-        {reviews.slice(0, 3).map((review) => (
-          <Reviews review={review}></Reviews>
+        {reviews.slice(0, 3).map((review, id) => (
+          <SingleReview key={id} review={review}></SingleReview>
         ))}
       </div>
     </div>

@@ -1,11 +1,14 @@
 import React from "react";
+import useReviews from "../../Hooks/useReviews";
+import SingleReview from "../SingleReview/SingleReview";
 
-const Reviews = ({ review }) => {
-  const { name } = review;
-  // console.log(review);
+const Reviews = () => {
+  const [reviews] = useReviews();
   return (
     <div>
-      <h1>{name}</h1>
+      {reviews.map((review, id) => (
+        <SingleReview key={id} review={review}></SingleReview>
+      ))}
     </div>
   );
 };
