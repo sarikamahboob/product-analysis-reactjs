@@ -8,26 +8,24 @@ const Home = () => {
   const [reviews] = useReviews();
   const navigate = useNavigate();
 
-  console.log("reviews home:", reviews);
-
   return (
     <div>
       <div className="container mx-auto flex justify-between items-center">
         <div className=" ">
-          <h1 className="text-blue-700 text-5xl font-bold mb-5">
+          <h1 className="text-blue-700 text-3xl lg:text-5xl font-bold mb-5">
             Explore the Laptop
           </h1>
-          <h1 className="text-blue-500 text-5xl font-bold mb-5">
+          <h1 className="text-blue-500 text-3xl lg:text-5xl font-bold mb-5">
             Get the best Performance
           </h1>
-          <p className="text-2xl mb-3 text-gray-600">
+          <p className="text-xl lg:text-2xl mb-3 text-gray-600">
             Gives up to 20 hours of battery life
           </p>
-          <p className="text-2xl  mb-3 text-gray-600">
+          <p className="text-xl lg:text-2xl  mb-3 text-gray-600">
             Has retina display with 500 nits of brightness for vibrant colors
             and incredible detail
           </p>
-          <p className="text-2xl  mb-3 text-gray-600">
+          <p className=" text-xl lg:text-2xl  mb-3 text-gray-600">
             Provides superfast SSD storage which opens apps and files in an
             instant
           </p>

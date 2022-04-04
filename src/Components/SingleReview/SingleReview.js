@@ -4,7 +4,7 @@ const SingleReview = ({ review }) => {
   const { name, picture, description, ratings } = review;
   return (
     <div className="container mx-auto mt-8">
-      <div className="flex mb-10 bg-indigo-100 rounded-lg ">
+      <div className="flex flex-col text-center items-center p-5 lg:flex lg:flex-row lg:text-left mb-10 bg-indigo-100 rounded-lg ">
         <div className="picture">
           <img src={picture} alt="" className="rounded-lg" />
         </div>
